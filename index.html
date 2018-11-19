@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel='stylesheet' type='text/css' href='/css/slick.css' />
+    <link rel='stylesheet' type='text/css' href='/css/slick-theme.css' />
+    <link rel='stylesheet' type='text/css' href='/css/bootstrap.min.css' />
+    <!--link rel='stylesheet' type='text/css' href='css/canvas.bootstrap.min.css' /-->
+    <link rel="stylesheet" href="/css/offcanvas.css" type="text/css" />
+    <link rel="stylesheet" href="/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="/css/apple-style.css" type="text/css" />
+    <link rel="stylesheet" href="/fonts/fonts.css" />
+    <link rel="stylesheet" href="/css/30style.css" type="text/css" />
+    <script src="/js/jquery.min.js"></script>
+    <!--script type='text/javascript' src='js/bootstrap.min.js'></script-->
+    <script type='text/javascript' src='/js/offcanvas.js'></script>
+    <script type='text/javascript' src='/js/slick.min.js'></script>
+    <script type='text/javascript' src='/js/scrollAnimate.js'></script>
+    <script type='text/javascript' src='/js/utilities.js'></script>
+    <style type="text/css">
+    body {
+        background-color: white;
+    }
+
+    .main-section {
+        position: relative;
+        height: 650px;
+        color: #fff;
+    }
+
+    .carousel .cover-img {
+        position: relative;
+        height: 650px;
+        background-position: top;
+    }
+
+
+    .svg-right {
+
+        height: 12px;
+        width: 30px;
+        /*height: 12px;
+        position: absolute;
+        right: -20px;
+        bottom: 6px;*/
+    }
+
+    .svg-left {
+        height: 12px;
+        width: 30px;
+    }
+
+    .text-right {
+        position: absolute;
+        left: 25px;
+    }
+
+
+    .haoxiu {
+        background-image: url('/images/green.jpg');
+    }
+
+    .xiufen {
+        background-image: url('/images/torkia.jpg');
+    }
+
+
+    .fei {
+        background-image: url('/images/ramsey.jpg');
+    }
+
+
+    .hao {
+        background-image: url('/images/hussein.jpg');
+    }
+
+    .video-svg .svg-left {
+        height: 27px;
+    }
+
+    .video-svg .text-right {
+        left: 35px;
+    }
+
+    .container {
+        position: relative;
+        max-width: 1440px;
+    }
+
+    .content-section {
+        padding: 100px 0;
+    }
+
+    .idream-grid-50 img {
+        max-width: 100%;
+    }
+
+    .ten-years {
+        position: relative;
+        background-image: url('/images/partners.jpg');
+        text-align: center;
+        color: white;
+        height: 600px;
+    }
+
+    .ten-years .shade {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .ten-years .flex-center {
+        height: 100%;
+    }
+
+    .ten-years .small-text {
+        margin-bottom: 50px;
+    }
+
+
+    .recruitment-foreword {
+        position: relative;
+        padding: 80px 50px;
+    }
+
+    .recruitment-foreword .center-content {
+        max-width: 1500px;
+    }
+
+    .tour-cities {
+        padding-right: 80px;
+    }
+
+    .tour-city {
+        //height: 550px;
+        position: relative;
+        color: #282828;
+        padding-top: 50px;
+    }
+
+    .city-pic {
+        margin-top: 40px;
+        margin-bottom: 40px; //height: 250px;
+        //width: 100%;
+    }
+
+    .foreword {
+        border-left: 1px dashed #282828;
+        padding: 50px 0 0 50px;
+        position: relative;
+    }
+
+    .tour-cities .slick-dots li button:before {
+        color: #b4b4b4;
+        font-size: 30px;
+    }
+
+    .tour-cities .slick-dots li.slick-active button:before {
+        color: black;
+        font-size: 30px;
+    }
+
+    .typography-italic {
+        font-style: italic;
+        line-height: 2;
+        margin: 100px 0;
+    }
+
+
+    @media only screen and (min-width: 1442px) {
+        .main-section,
+        .carousel .cover-img {
+            height: 750px;
+        }
+    }
+
+    @media only screen and (min-width: 768px) {
+
+        .main-intro {
+            top: 30%;
+            position: absolute;
+            right: 8%;
+            width: 40%;
+            max-width: 450px;
+        }
+
+        .video-svg .svg-left {
+            margin-top: 3px;
+        }
+
+        .tour-cities .slick-dots {
+            top: 30%;
+            width: auto;
+            right: 20px;
+        }
+
+        .tour-cities .slick-dots li {
+            display: block;
+        }
+
+        .foreword-title {
+            width: 80%;
+        }
+    }
+
+
+    @media only screen and (max-width: 767px) {
+
+        .main-section,
+        .carousel .cover-img {
+            height: 500px;
+        }
+
+        .main-intro {
+            bottom: 60px;
+            position: absolute;
+            left: 10%;
+            right: 8%;
+        }
+
+        .ten-years {
+            height: 400px;
+        }
+
+
+        .idream-grid-50 .larger-part-left {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .haoxiu {
+            //background-image: url('/images/greensm.jpg');
+            background-image: url('/images/team.jpg');
+        }
+
+        .xiufen {
+            //background-image: url('/images/torkiasm.jpg');
+            background-image: url('/images/hx.jpg');
+        }
+
+
+        .fei {
+            //background-image: url('/images/ramseysm.jpg');
+            background-image: url('/images/f.jpg');
+        }
+
+
+        .hao {
+            //background-image: url('/images/husseinsm.jpg');
+            background-image: url('/images/h.jpg');
+        }
+
+        .tour-cities {
+            padding-right: 0;
+        }
+
+        .recruitment-foreword {
+            padding: 0 25px;
+        }
+
+        .foreword {
+            border-left: 0;
+            border-top: 1px solid #282828;
+            padding-left: 0;
+            margin-top: 30px;
+        }
+
+        .tour-cities .slick-dots {
+            bottom: 0;
+        }
+    }
+    </style>
+</head>
+
+<body>
+    <div class="overlay"></div>
+    <nav class="mynavbar navbar-inverse navbar-static-top">
+        <div class="nav-container">
+            <div class="navbar-header row-offcanvas row-offcanvas-right">
+                <button type="button" class="navbar-toggle collapsed pull-right" data-toggle="offcanvas">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="brand-div">
+                    <a class="navbar-brand" href="#">爱梦想</a>
+                </div>
+            </div>
+            <!--div id="navbar" class="collapse navbar-collapse sidebar-offcanvas">
+                <ul class="nav navbar-nav">
+                    <li class="linky"><a href="/idream/ambitions.html">雄心勃勃的爱梦想</a></li>
+                    <li class="linky"><a href="/idream/rtour.html">全球招募</a></li>
+                    <li class="linky"><a href="/idream/revolution.html">公司革命</a></li>
+                    <li class="linky"><a href="/idream/aboutus.html">关于我们</a></li>
+                    <li><a id="nav-join" href="/idream/joinus.html" class="apple-hollow-button">我要报名</a></li>
+                </ul>
+            </div-->
+            <!--/.nav-collapse -->
+        </div>
+    </nav>
+    <div class="contianer center-content  row-offcanvas row-offcanvas-right">
+        <div class="main-section">
+            <div class="carousel">
+                <div class="haoxiu cover-img">
+                </div>
+                <div class="xiufen cover-img">
+                </div>
+                <div class="fei cover-img">
+                </div>
+                <div class="hao cover-img">
+                </div>
+            </div>
+            <div class="shade"></div>
+            <div class="main-intro">
+                <a class="typography-intro video-svg">
+                    <span>
+                    <svg class="svg-left" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"></path><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"></path></svg></span>
+                    <span class="text-right">观看挑战QQ宣言</span>
+                </a>
+                <h1 class="typography-headline">挑战QQ（微信）只是未来事业的一部分，我们的使命是改变世界！</h1>
+                <a>
+                    <span class="weight-bold">爱梦想的使命和雄心</span>
+                    <span>
+                        <svg class="svg-right" viewBox="0 0 16 12" width="100%" height="100%">
+                            <path d="M15.7 6l-5.6 6H7.7l4.8-5.1H.3V5.2h12.2L7.7 0h2.4l5.6 6z"></path>
+                        </svg>
+                    </span>
+                </a>
+            </div>
+        </div>
+
+    <div class="recruitment-foreword">
+        <div class="center-content row no-gutters">
+            <div class="collum col-md-6 col-sm-12">
+                <div class="tour-cities">
+                    <div class="tour-city">
+                        <div class="foreword-title">
+                            <h3 class="typography-title">深圳•首站</h3>
+                            <p>第一期主题：12200亿万富豪股份计划</p>
+                        </div>
+                        <div class="cover-img city-pic long-pic" style="background-image:url('/images/shenzhen.jpg')"></div>
+                    </div>
+                    <div class="tour-city">
+                        <div class="foreword-title">
+                            <h3 class="typography-title">香港站</h3>
+                            <p>第二期主题：互联网时代的公司革命</p>
+                        </div>
+                        <div class="cover-img city-pic long-pic" style="background-image:url('/images/hongkong.jpg')"></div>
+                    </div>
+                    <div class="tour-city">
+                        <div class="foreword-title">
+                            <h3 class="typography-title">杭州站</h3>
+                            <p>第三期主题：雄心勃勃、机会无限的爱梦想</p>
+                        </div>
+                        <div class="cover-img city-pic long-pic" style="background-image:url('/images/hangzhou.jpg')"></div>
+                    </div>
+                    <div class="tour-city">
+                        <div class="foreword-title">
+                            <h3 class="typography-title">北京•终点站</h3>
+                            <p>第四期主题：与12200名合伙人的千亿市值之约</p>
+                        </div>
+                        <div class="cover-img city-pic long-pic" style="background-image:url('/images/beijing.jpg')"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="collum col-md-6 col-sm-12">
+                <div class="foreword">
+                    <div class="foreword-title">
+                        <p class="typography-eyebrow eyebrow">全球招募巡回演讲</p>
+                        <h3 class="typography-quote">让我们一起再为世界贡献12200名亿万富豪</h3>
+                    </div>
+                    <p>靴子落地！我们终于鼓足勇气，要把这个令人震撼的计划带到世界各地。</p>
+                    <br>
+                    <p>一个完全在互联网上进行的发布会，一个能容纳全球所有媒体人和所有想要在第一时间见证奇迹出现的人们共同出席，一个真正覆盖全球的发布会；“规模宏大，豪气十足”，10月29日至11月25日，我们将用四个发布周将这一激动人心的计划公布于世：从深圳开始，经香港，过杭州，再到北京，每一个发布周，我们都将走访一个城市，举办一场发布会，参加各种各样的媒体活动，进校园，访英才，边发布，边鼓动。正是：四个发布周，周周都有密集的线上线下活动；四场发布会，场场都会有震撼人心的新篇章！</p>
+                    <br>
+                    <p>小米和爱梦想，您更愿意加入哪一个？相信在四场发布会结束之时，您已了然于心。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contianer center-content">
+        <div class="content-section">
+            <div class="section-content-broad">
+                <div class="idream-grid-50">
+                    <div class="row no-gutters">
+                        <div class="collum col-md-6 col-sm-12 larger-part larger-part-left flex-center ">
+                            <div>
+                                <h3 class="typography-hero-headline">打造史上产生亿万富豪数量最多的创业团队</h3>
+                                <p>
+                                    <a>
+                                    <span class="weight-bold">爱梦想全球合伙人计划</span>
+                                    <span>
+                                        <svg class="svg-right" viewBox="0 0 16 12" width="100%" height="100%">
+                                            <path d="M15.7 6l-5.6 6H7.7l4.8-5.1H.3V5.2h12.2L7.7 0h2.4l5.6 6z"></path>
+                                        </svg>
+                                    </span>
+                                </a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="collum col-md-6 col-sm-12 smaller-part">
+                            <img src="/images/tagvideo.jpg"></img>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ten-years cover-img">
+            <div class="shade"></div>
+            <div class="flex-center">
+                <div class="center-content-7080">
+                    <h3 class="typography-headline">小米和爱梦想，你更愿意加入哪一个？</h3>
+                    <p class="small-text">未来三年毕业的大学生一定要关注的人才计划</p>
+                    <p>
+                        <a>
+                            <span class="weight-bold">爱梦想全球合伙人计划</span>
+                            <span>
+                                <svg class="svg-right" viewBox="0 0 16 12" width="100%" height="100%">
+                                       <path d="M15.7 6l-5.6 6H7.7l4.8-5.1H.3V5.2h12.2L7.7 0h2.4l5.6 6z"></path>
+                                </svg>
+                            </span>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--div class="angle-section">
+            <div class="section-content-broad">
+                <div class="angle-title angle-content">
+                    <h3 class="typography-headline">掀起互联网时代的公司革命</h3>
+                    <h3 class="typography-title">
+                        it's cool!
+                        <br>
+                        it's amazing!
+                        <br>
+                        It’s incridble
+                        <br>
+                        how wonderful!
+                        <br>
+                        ……
+                    </h3>
+                </div>
+                <div class="cover-img long-pic" style="background-image:url('/images/earth.jpg');"></div>
+                <div class="angle-content center-content">
+                    <p class="typography-intro typography-italic">
+                        尽管使用您所知道的各种赞美之词吧！
+                        <br>
+                        因为有着远大梦想的我们，绝不会容忍爱梦想成为一家普普通通的互联网公司。
+                        <br>
+                        因为勇敢的我们，已经让爱梦想成功完成了一场堪称革命的巨变。
+                        <br>
+                        因为爱梦想从一开始出场，就要展示出非同寻常的魅力和气魄。
+                        <br>
+                        因为这种魅力和气魄要为爱梦想吸引来自世界各地的精英们，让其成为同时代千万个创业公司中最为杰出的一个。 </p>
+                </div>
+            </div>
+            <div class="hero-angle hero-angle-bottom"></div>
+        </div>
+        <div class="multi-angle-section">
+            <div class="section-content-broad">
+                <div class="angle-title angle-content">
+                    <h3 class="typography-headline">掀起互联网时代的公司革命</h3>
+                    <p>爱梦想要成为一家完全在互联网上运行的新型公司，不再为员工准备任何办公室，不再配备任何实物化的办公环境，所有爱梦想人都不用到公司上班，所有工作都要通过互联网完成。</p>
+                </div>
+                <img width="100%" src="/images/kids.jpg">
+                <div class="angle-content center-content">
+                    <h3 class="typography-title">爱梦想要扔掉现实中传统公司所拥有的一切有形外壳，一切需要花费大量金钱所建造起的沉重负担，而对于在互联网时代早已渴望自由的人才而言，那简直是一条条用金银打造的昂贵锁链。爱梦想要让所有来自世界各地的精英们自由翱翔于天地之间，也要让自己在准备腾飞之前就已经毫无负重、身轻如燕。</h3>
+                </div>
+            </div>
+            <div class="grey-angle-container">
+                <div class="hero-angle hero-angle-top"></div>
+                <div class="hero-angle hero-angle-bottom"></div>
+            </div>
+        </div>
+        <div class="multi-angle-section">
+            <div class="section-content-broad">
+                <div class="angle-title angle-content">
+                    <h3 class="typography-headline">掀起互联网时代的公司革命</h3>
+                    <p>爱梦想要成为一家完全在互联网上运行的新型公司，不再为员工准备任何办公室，不再配备任何实物化的办公环境，所有爱梦想人都不用到公司上班，所有工作都要通过互联网完成。</p>
+                </div>
+                <img width="100%" src="/images/earth.jpg">
+                <div class="angle-content center-content">
+                    <h3 class="typography-title">爱梦想要扔掉现实中传统公司所拥有的一切有形外壳，一切需要花费大量金钱所建造起的沉重负担，而对于在互联网时代早已渴望自由的人才而言，那简直是一条条用金银打造的昂贵锁链。爱梦想要让所有来自世界各地的精英们自由翱翔于天地之间，也要让自己在准备腾飞之前就已经毫无负重、身轻如燕。</h3>
+                </div>
+            </div>
+        </div-->
+    </div>
+    <footer>
+        <div class="inner-footer center-content">
+            <!--div class="nav foot-nav">
+                <div><a href="#">2200计划</a></div>
+                <div><a href="#about">股份激励</a></div>
+                <div><a href="#contact">使命和雄心</a></div>
+                <div><a href="#">2200计划</a></div>
+                <div><a href="#about">股份激励</a></div>
+                <div><a href="#contact">使命和雄心</a></div>
+            </div>
+            <div>
+                <hr>
+            </div-->
+            <div class="company-info">
+                <p>Copyright © 爱梦想（三亚）网络科技有限责任公司. All rights reserved.</p>
+                <br>
+                <p>邮箱及社交媒体：</p>
+            </div>
+            <div>
+                <a href="/images/weixinqrcode.jpg" target="_blank" class="social-media">                    
+                    <div>
+                        <img src="/images/wechat_icon.png">
+                    </div>
+                </a>
+                <a href="https://weibo.com/hiamx" target="_blank" class="social-media">
+                    <!--svg id="twitter-mask" viewBox="0 0 64 64" width="100%" height="100%">
+                        <path d="M0,0v64h64V0H0z M44.7,25.5c0,0.3,0,0.6,0,0.8C44.7,35,38.1,45,26.1,45c-3.7,0-7.2-1.1-10.1-2.9 c0.5,0.1,1,0.1,1.6,0.1c3.1,0,5.9-1,8.2-2.8c-2.9-0.1-5.3-2-6.1-4.6c0.4,0.1,0.8,0.1,1.2,0.1c0.6,0,1.2-0.1,1.7-0.2 c-3-0.6-5.3-3.3-5.3-6.4c0,0,0-0.1,0-0.1c0.9,0.5,1.9,0.8,3,0.8c-1.8-1.2-2.9-3.2-2.9-5.5c0-1.2,0.3-2.3,0.9-3.3 c3.2,4,8.1,6.6,13.5,6.9c-0.1-0.5-0.2-1-0.2-1.5c0-3.6,2.9-6.6,6.6-6.6c1.9,0,3.6,0.8,4.8,2.1c1.5-0.3,2.9-0.8,4.2-1.6 c-0.5,1.5-1.5,2.8-2.9,3.6c1.3-0.2,2.6-0.5,3.8-1C47.1,23.4,46,24.5,44.7,25.5z"></path>
+                    </svg-->
+                    <div>
+                        <img src="/images/weibo_icon.png">
+                    </div>
+                </a>
+                <a href="https://www.facebook.com/12200s" target="_blank" class="social-media">
+                    <svg id="facebook-mask" viewBox="0 0 64 64" width="100%" height="100%">
+                        <path d="M0,0v64h64V0H0z M39.6,22l-2.8,0c-2.2,0-2.6,1.1-2.6,2.6V28h5.3l-0.7,5.3h-4.6V47h-5.5V33.3H24V28h4.6V24 c0-4.6,2.8-7,6.9-7c2,0,3.6,0.1,4.1,0.2V22z"></path>
+                    </svg>
+                </a>
+                <a href="amxsy@qq.com" target="_blank" class="social-media">
+                    <svg id="email-mask" viewBox="0 0 64 64" width="100%" height="100%">
+                        <path d="M41.1,25H22.9l9.1,7.1L41.1,25z M44,26.6l-12,9.3l-12-9.3V39h24V26.6z M0,0v64h64V0H0z M47,42H17V22h30V42z"></path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+    </div>
+    <!--<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js "></script>-->
+    <!--script src="js/bootstrap.min.js"></script-->
+    <script type="text/javascript">
+    $('.carousel').slick({
+        draggable: true,
+        slidesToShow: 1,
+        arrows: false,
+        dots: true,
+        autoplay: true,
+        autoplaySpeed: 5000
+    });
+    $('.tour-cities').slick({
+        draggable: true,
+        slidesToShow: 1,
+        arrows: false,
+        dots: true,
+        fade: true,
+        autoplay: true,
+        autoplaySpeed: 4000,
+    });
+    </script>
+</body>
+
+</html>
